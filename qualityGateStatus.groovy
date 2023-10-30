@@ -1,3 +1,3 @@
 def call(credentialsID){
-    waitForQualityGate abortPipeline: false, credentialsId: credentialsID
+    waitForQualityGate abortPipeline: false, credentialsID: credentialsID
 }
